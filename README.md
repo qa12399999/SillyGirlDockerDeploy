@@ -3,11 +3,12 @@
 **前提条件：Git、Docker、 Docker-compose**
 
 1. 克隆仓库 ：git clone  https://github.com/qa12399999/SillyGirlDockerDeploy
-2. 参考 [example_sets.conf](./conf/example_sets.conf)  设置   conf/sets.conf （#为注释 不生效）
-3. docker-compose.yaml 设置 EXTEND_REPO_URL
-4. 在 SillyGirlDockerDeploy目录 运行：docker-compose up --build 看看是否正确运行
-5. ctrl+c
-6. 后台运行：docker-compose up --build -d
+2. 国内 git clone https://ghproxy.com/https://github.com/qa12399999/SillyGirlDockerDeploy
+3. 参考 [example_sets.conf](./conf/example_sets.conf)  设置   conf/sets.conf （#为注释 不生效）
+4. docker-compose.yaml 设置 EXTEND_REPO_URL
+5. 在 SillyGirlDockerDeploy目录 运行：docker-compose up --build 看看是否正确运行
+6. ctrl+c
+7. 后台运行：docker-compose up --build -d
 
 ### 功能
 
